@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Trabalhando com tabelas</h1>
+    <h2>Tabela de Alunos</h2>
+    <!-- TABELAS EM HTML -->
+     <table border="1">
+
+        <thead> <!-- Cabeçalho -->
+            <tr> <!-- Linha da tabela -->
+                <th>Nome</th> <!-- Coluna -->
+                <th>Idade</th> <!-- Coluna -->
+                <th>CPF</th> <!-- Coluna -->
+                <th>E-mail</th> <!-- Coluna -->
+            </tr>
+        </thead>
+
+        <tbody> <!-- Corpo -->
+            <tr> <!-- Linha da tabela -->
+                <td>Matheus</td> <!-- Item da tabela -->
+                <td>27</td> <!-- Item da tabela -->
+                <td>123.456.789-00</td> <!-- Item da tabela -->
+                <td>matheus@gmail.com</td> <!-- Item da tabela -->
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>18</td>
+                <td>557.276.818-98</td>
+                <td>gabriel@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Guilherme</td>
+                <td>16</td>
+                <td>321.654.987-00</td>
+                <td>guilherme@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Igor</td>
+                <td>17</td>
+                <td>987.654.321-00</td>
+                <td>igor@gmail.com</td>
+            </tr>
+        </tbody>
+     </table>
+
+     <h2>Tabela de filmes</h2>
+     <!-- MESCLANDO COLUNAS -->
+      <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Lista de filmes</th>
+            </tr>
+            <tr>
+                <th>Gênero</th>
+                <th>Ano</th>
+                <th>Título</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Ação</td>
+                <td>2019</td>
+                <td>Vingadores Ultimato</td>
+                <td>8.4</td>
+            </tr>
+            <tr>
+
+                <td>2000</td>
+                <td>Jhon Wick</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Comédia</td>
+                <td>2005</td>
+                <td>American Pie</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>2009</td>
+                <td>Gente Grande</td>
+                <td>7.0</td>
+            </tr>
+        </tbody>
+      </table>
+</body>
+</html>
