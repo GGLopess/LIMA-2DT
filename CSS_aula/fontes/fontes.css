@@ -1,0 +1,28 @@
+h1{
+    /* font-size: 50px; Tamanho da fonte */
+    /* font-size: 5em; Tamanho da fonte em ** 16 x o número que vc colocar*/
+    /* font-size: 5vw; Tamanho da fonte em relação à largura da viewport */
+    /* font-family:; Família da fonte */
+    /* font-weight: 100; Espessura da fonte */
+    /* line-height: 190px; Altura da linha */
+    /* letter-spacing: 2px; Espaçamento entre letras */
+    /* color: red; Cor da fonte */
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica;
+    font-weight: 100;
+    line-height: 50px;
+    letter-spacing: 5px;
+    color: green;
+}
+
+h3{
+    font-size: 100px;
+    font-family: Arial, sans-serif, Helvetica;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: 10px;
+    color: blue;
+}
