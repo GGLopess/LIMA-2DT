@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bagel+Fat+One&display=swap');
+
+fieldset{
+    font-size: 20px;
+    width: 250px;
+    font-family: Anton;
+    font-weight: 100;
+}
+
+p{
+    margin: 2px;
+    font-size: 16px;
+}
+
+label{
+    font-size: 15px;
+}
+
+.azul{
+    color: blue;
+}
+
+.vermelho{
+    color: red;
+}

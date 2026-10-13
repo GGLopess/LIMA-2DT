@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=], initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="./formulario.css">
 </head>
 <body>
     
@@ -33,12 +34,16 @@
         <fieldset>
             <legend>Preferências</legend>
             <p>Informe sua cor preferida:</p>
-            <label><input type="radio" name="cor">Azul</label>
-            <label><input type="radio" name="cor">Vermelho</label>
+            <label class="azul"><input type="radio" name="cor">Azul</label>
+            <label class="vermelho"><input type="radio" name="cor">Vermelho</label>
+
+            <br>
 
             <p>Informe quais frutas você quer:</p>
             <label><input type="checkbox" name="fruta">Maçã</label>
             <label><input type="checkbox" name="fruta">Uva</label>
+
+            <br>
 
             <p>Idioma:</p>
             <select name="idioma" id="idioma">
@@ -47,7 +52,10 @@
                 <option value="en">Inglês</option>
             </select>
 
+            <br>
+
             <label for="sugestoes">Sugestões:</label>
+            <br>
             <textarea name="sugestoes" id="sugestoes"></textarea>
 
         </fieldset>

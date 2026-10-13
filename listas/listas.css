@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bagel+Fat+One&family=Edu+QLD+Hand:wght@400..700&display=swap');
+ul{
+    width: fit-content;
+}
+
+ol{
+    width: fit-content;
+}
+
+.alter-font{
+    font-family: Edu QLD Hand, cursive;
+    font-weight: 500;
+}
+
+.titulo-lista{
+    font-size: 25px;
+    margin: 2px;
+}
+
+li{
+    font-size: 18px;
+}
